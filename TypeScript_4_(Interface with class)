@@ -1,0 +1,20 @@
+/////////// now we use interface with class
+
+interface User {
+    name:string,
+    id : number
+}
+// yaha ham class ko koi type nhi de sakte hai because class already has own it's type which is class
+class miniUser {
+    name : string;
+    id : number
+    //// because constracter is taking some argument so we have to give type to these argumetns
+    constructor(name:string,id:number){
+            this.name = name;
+            this.id = id;
+    }
+
+}
+//// yaha ham is vari ko type dege of interface
+const hms:User = new miniUser("himanshu",8) 
+console.log(hms)
