@@ -1,0 +1,15 @@
+//////////////////////// giving types in ts ////////////////////////
+// js all types {
+// Boolean type.
+// Null type.
+// Undefined type.
+// Number type.
+// BigInt type.
+// String type.
+// Symbol type.
+// there is no float type in js
+// }
+
+const khabib:string = "ufc fighter"
+const id:number = 90;
+const yes:boolean = true
