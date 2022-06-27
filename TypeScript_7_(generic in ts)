@@ -1,0 +1,52 @@
+///////////////////////////////  generic in func in ts ///////////////////////////////////
+//////  basically generic hamri help karte hai when you don't comfirm that what type you have to in the function or class.
+///// and many time we give that :any type in func but this is not good we can use generic here after that 
+// we can give the type that we want
+/// generic <types1,type2,...>
+
+function ufcFighter<s,n>(name:s,id:n):s{
+  return name
+}
+
+const gg = ufcFighter<string,number>("hms",9)
+console.log(gg)
+
+const gh = ufcFighter<string,string>("hms","10")
+
+
+////// so here you see how we give as like type as we want
+
+
+/////////////////////////// generic in class in ts ///////////////////////////
+
+class hms<s,n>{
+  name:s ;
+  id:n ;
+  constructor(name:s,id:n){
+    this.name = name;
+    this.id = id
+      // console.log(`my name is ${this.name},and my id is ${this.id}`)
+  }
+  showname(){
+     console.log(`my name is ${this.name},and my id is ${this.id}`)
+  }
+
+}
+
+const y = new hms<string,number>("killer",8)
+console.log(y)
+y.showname()
+
+
+///////////////////// generic in interfaces /////////////////////
+
+interface r<type1,type2>{
+  name:type1
+  id:type2
+}
+
+const jin:r<string,number> ={
+  name:"killer",
+  id:0,
+} 
+console.log(jin)
