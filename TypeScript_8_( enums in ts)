@@ -1,0 +1,43 @@
+/////////////////// enums in ts ///////////////////
+
+//// enums is just like obj .enums some time not so useful in code. in enums we give key,value
+//// pair like we do in obj
+//// never booleans value in enums becasue it's don't work.
+
+
+///////// basically if you don't give any value to enums key then it set their value to 0
+//////// but if you give value to only first enums key =1 and you don't value to second key then 
+/////// enums automatically give +1 values to their other keys
+////// for example {
+        // student1 = 1
+        //(enums now give it value according to id1 and becasue you give id1 =1 , now it's these to +1 value according to id1 value)
+        // student2,    (2 value automatically)
+        // student3,    (3 value automatically)
+        // student4,    (4 value autmatically)
+////// } 
+enum ufcfighterName {
+  id1= 2,
+  id2,
+
+}
+
+const hin = ufcfighterName.id1
+const gin = ufcfighterName.id2
+console.log(hin) // output 2
+console.log(gin) // output 3
+
+
+enum studentsName {
+  student1 = "himanshu",
+  student2= "ankush",
+  student3="inshul",
+}
+
+const ui = studentsName.student1
+console.log(ui) //output "himanshu"
+const ui2 = studentsName.student2
+console.log(ui2)  //output "ankush"
+const ui3 = studentsName.student3
+console.log(ui3)  //output "inshul"
+
+
