@@ -1,0 +1,22 @@
+
+//////////////// function in typescript ////////////////////
+
+function Hms(name:string,id:number):string{
+    return (name)
+}
+const hms1 = Hms("himanshu",8)
+console.log(hms1)
+
+//////// yaha jab app is func ke ander peremeter pas karge to first peremeter as a name considered/
+/////// kara jayega and second as a id and (...)rest all peremeter will consider as a array of number
+/////// if you wnat to make a rest peremeter you just have to give this (...) before peremter name
+
+
+function advance(name:string,id:number,...rest:number[]):void {
+        console.log(name,id,...rest)
+}
+
+//////// when you don't return anything from a func that's means you return (:viod)
+
+const hms2 = advance("himanshu",8,67,45,34,234,35,46,57,67,667,545,453,24)
+console.log(hms2)
