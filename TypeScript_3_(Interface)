@@ -1,0 +1,12 @@
+///////////////////////////// importance of interfaces in ts //////////////////////////
+
+// const ufcFighter ={
+//     name:"khabib",
+//     id:0
+// }
+/// it saves to from getting error because in interface we have decide that the obj key should be 
+// that type(that you give it)
+interface Fighter {
+    name: string,
+    id:number
+}
