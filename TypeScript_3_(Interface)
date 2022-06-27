@@ -4,7 +4,7 @@
 //     name:"khabib",
 //     id:0
 // }
-/// it saves to from getting error because in interface we have decide that the obj key should be 
+/// it saves to from getting error{Object literal may only specify known properties} because in interface we have decide that the obj key should be 
 // that type(that you give it)
 //// one thing that is always know that never give other key that is'nt present in you interfaces, if you do that then is gives you an error
 
