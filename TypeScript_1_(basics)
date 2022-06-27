@@ -1,0 +1,12 @@
+{{{{{{{{{{{{{{{{{{{{{ TypeScipt Basics }}}}}}}}}}}}}}}}}}}
+
+// TypeScript is an open-source extension of JavaScript that changes JavaScript from an 
+//  object-oriented scripting language into a object-oriented programming language.
+// TypeScript solves this issue by letting you compile your code in your IDE before testing it out.
+// To get started using TypeScript the first thing you want to do is install it globally by running 
+// the npm command: npm i -g typescript .
+// This is because TypeScript is not a replacement for JavaScript, but a superset and 
+// so it uses babel to convert all of its code into vanilla JavaScript. 
+
+//// most of the times ts error ke nicche red line show karta hai and some when we write half code 
+// in type ye uuske nicche bhi red line show karta until you write it full or properly 
